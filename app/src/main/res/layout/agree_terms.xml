@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/personal_info_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/personal_info_checkbox"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:cardCornerRadius="4dp">
+
+            <ImageView
+                android:id="@+id/check_personal_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/check" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/personal_info_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/agree_personal_information" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/kyc_info_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/kyc_info_checkbox"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:cardCornerRadius="4dp">
+
+            <ImageView
+                android:id="@+id/check_kyc_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/check" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/kyc_info_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:gravity="bottom"
+            android:text="@string/kyc_information" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</LinearLayout>

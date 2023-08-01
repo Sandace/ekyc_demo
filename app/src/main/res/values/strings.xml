@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EkycDemo</string>
+    <string-array name="Nationalities">
+        <item>Japanese</item>
+        <item>Nepali</item>
+    </string-array>
+    <string name="title_activity_identity_verification">IdentityVerification</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="agree_personal_information">I agree to share my <font color='#3462B5'>Personal Information</font></string>
+    <string name="kyc_information">I agree to share my <font color='#3462B5'>KYC Information</font></string>
+</resources>
